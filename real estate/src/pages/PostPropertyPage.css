@@ -1,0 +1,129 @@
+.form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.form-container h2 {
+  margin-top: 0;
+}
+
+.free-tag {
+  color: #555;
+}
+
+.free-tag span {
+  background-color: #f7a81b;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+form {
+  margin-top: 20px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+legend {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Important */
+}
+
+.whatsapp-group {
+    background-color: #fffde7;
+    border: 1px solid #fff9c4;
+    padding: 10px;
+    border-radius: 4px;
+}
+.whatsapp-group input {
+    border: none;
+    background: transparent;
+}
+
+
+.radio-group label {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 5px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.info-card h4 {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.info-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-card li {
+  margin-bottom: 20px;
+  padding-left: 40px;
+  position: relative;
+}
+
+.info-card li::before {
+    content: '✓'; /* Placeholder for icon */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 24px;
+    color: #4caf50;
+}
+
+.info-card h5 {
+  margin: 0 0 5px 0;
+}
+
+.info-card p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}

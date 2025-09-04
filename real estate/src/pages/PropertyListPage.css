@@ -1,0 +1,101 @@
+.page-layout {
+  display: flex;
+  gap: 20px;
+}
+
+.main-content {
+  flex: 3;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.results-header h3 {
+  font-weight: 500;
+  color: #333;
+  font-size: 18px;
+}
+
+.sidebar-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.free-post-card {
+  text-align: center;
+  background-color: #fff8e1;
+  border-color: #ffecb3;
+}
+
+.free-post-card h4 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+.free-post-card h4 span {
+  color: #d9232d;
+}
+
+.free-post-card button {
+  background-color: #f7a81b;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.why-magicbricks h4 {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.why-magicbricks ul {
+  list-style-type: '✓';
+  padding-left: 20px;
+  margin: 0;
+}
+
+.why-magicbricks li {
+  margin-bottom: 10px;
+  color: #555;
+  padding-left: 10px;
+}
+
+.ad-card {
+    background-color: #eef3ff;
+    border: 1px solid #c7d8ff;
+    text-align: center;
+}
+
+.ad-card .exclusive-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.ad-card .rate {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d9232d;
+    margin: 5px 0;
+}
+
+.ad-card .product {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0 15px 0;
+}
+
+.ad-card .bank-logo {
+    max-width: 80px;
+}
